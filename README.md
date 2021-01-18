@@ -44,12 +44,13 @@ void loop() {
 
 Output:
 ```cpp
-{"Name":"John","Age":18,"Phone":"0900111222","TEST":["AA","BB","CC"]}
+Original json string = {"Name":"John","Age":18,"Phone":"0900111222","TEST":["AA","BB","CC"]}
 Age = 18
 Phone = 0900111222
 Array Count = 3
 TEST[0] = AA
 TEST[1] = BB
 TEST[2] = CC
+
 ```
 
