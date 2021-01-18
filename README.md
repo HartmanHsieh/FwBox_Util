@@ -3,6 +3,14 @@ Very tiny json parser. It can't pasrse full tree. It can only search for the key
 
 Arduino example:
 ```cpp
+#include "FwBoxLiteJson.h"
+
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(9600);
+  Serial.println();
+}
+
 void loop() {
   // put your main code here, to run repeatedly:
   FwBoxLiteJson lj;
