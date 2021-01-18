@@ -1,7 +1,7 @@
 # FwBoxLiteJson
-Very tiny json parser. It can't pasrse full tree, can only search for the key and get it's value.
+Very tiny json parser. It can't pasrse full tree. It can only search for the key and get it's value.
 
-Example:
+Arduino example:
 ```cpp
 void loop() {
   // put your main code here, to run repeatedly:
@@ -40,5 +40,16 @@ void loop() {
 
   delay(10 * 1000);
 }
+```
+
+Output:
+```cpp
+{"Name":"John","Age":18,"Phone":"0900111222","TEST":["AA","BB","CC"]}
+Age = 18
+Phone = 0900111222
+Array Count = 3
+TEST[0] = AA
+TEST[1] = BB
+TEST[2] = CC
 ```
 
