@@ -2,7 +2,7 @@
 Very tiny json parser. It can't pasrse full tree, can only search for the key and get it's value.
 
 Example:
-
+```cpp
 void loop() {
   // put your main code here, to run repeatedly:
   FwBoxLiteJson lj;
@@ -40,5 +40,5 @@ void loop() {
 
   delay(10 * 1000);
 }
-
+```
 
